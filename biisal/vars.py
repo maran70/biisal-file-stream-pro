@@ -12,18 +12,18 @@ bisal_grp = "https://t.me/+PA8OPL2Zglk3MDM1"
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv('API_ID', ''))
-    API_HASH = str(getenv('API_HASH', ''))
-    BOT_TOKEN = str(getenv('BOT_TOKEN' , ''))
+    API_ID = int(getenv('API_ID', '22487047'))
+    API_HASH = str(getenv('API_HASH', '7fea27db5c011ef2ed75074c4a195610'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN' , '7580377760:AAGqmwfp-ObZDpQD9o9okEboWqhVjYseiIk'))
     name = str(getenv('name', 'bisal_file2link_bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', ''))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002310062053'))
     NEW_USER_LOG = int(getenv('NEW_USER_LOG', ''))
     PORT = int(getenv('PORT', '8080'))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
-    OWNER_ID = [int(x) for x in os.environ.get("OWNER_ID", "5397984467").split()]
+    OWNER_ID = [int(x) for x in os.environ.get("OWNER_ID", "8059380015").split()]
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
     OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'biisal'))
